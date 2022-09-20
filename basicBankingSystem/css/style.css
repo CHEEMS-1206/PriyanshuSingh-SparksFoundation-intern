@@ -1,0 +1,54 @@
+/* styling bannera area   */
+body{
+  background-image: url('./renato-ramos-puma-ybSql-GGUOE-unsplash.jpg');
+
+}
+.bannerArea {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: calc(100% - 120px);
+  align-items: center;
+  /* background: linear-gradient(#1e90ff, white); */
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.bannerArea h2 {
+  margin-left: 50px;
+  font-size: 60px;
+  color: var(--color);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.bannerArea p {
+  margin-left: 50px;
+  font-size: 48px;
+  color: var(--color);
+  font-weight: 400;
+}
+.services {
+  width: 50%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.services ol {
+  margin: 20px 0px 20px 50px;
+}
+.services ol li {
+  padding: 8px 20px;
+  border-radius: 20px;
+  margin: 20px 0px;
+  width: 300px;
+  background-color: var(--color);
+  transition: all 0.3s ease;
+}
+.services ol li:hover {
+  transform: scale(1.07);
+}
+.services ol li a {
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+}

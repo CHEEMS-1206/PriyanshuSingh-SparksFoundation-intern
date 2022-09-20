@@ -1,0 +1,52 @@
+/* * {
+  border: 1px solid black;
+} */
+.mainBody form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: max-content;
+  margin: 0 auto;
+  border-radius: 6px;
+  box-shadow: 0 0 3px 2px var(--color);
+}
+.mainBody form div {
+  display: flex;
+  padding: 10px 20px;
+  margin: 10px 0px;
+  width: 350px;
+  justify-content: space-between;
+}
+.mainBody form div:last-of-type {
+  padding: 10px 20px;
+}
+.mainBody form div span {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--color);
+}
+.mainBody form div input {
+  padding: 3px 15px;
+  font-size: 15px;
+  font-weight: 500;
+  color: black;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+.mainBody form div button {
+  padding: 10px 25px;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  background-color:var(--color);
+  cursor: pointer;
+  border-radius: 8px;
+}
+#CREATE {
+  background-color: darkcyan;
+}
+#RESET {
+  background-color: crimson;
+}
